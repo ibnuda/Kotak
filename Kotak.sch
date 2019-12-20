@@ -1,0 +1,2074 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keyboard_parts:SW_PUSH SW1
+U 1 1 5DFCBBF2
+P 1400 950
+F 0 "SW1" H 1400 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 1400 950 60  0001 C CNN
+F 3 "" H 1400 950 60  0000 C CNN
+	1    1400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D1
+U 1 1 5DFCC441
+P 1100 1200
+F 0 "D1" H 972 1150 60  0000 R CNN
+F 1 "D" V 1250 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1100 1200 60  0001 C CNN
+F 3 "" H 1100 1200 60  0000 C CNN
+	1    1100 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 950  1100 1050
+$Comp
+L keyboard_parts:SW_PUSH SW2
+U 1 1 5DFCDC7E
+P 1400 1650
+F 0 "SW2" H 1400 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 1400 1650 60  0001 C CNN
+F 3 "" H 1400 1650 60  0000 C CNN
+	1    1400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D2
+U 1 1 5DFCDC84
+P 1100 1900
+F 0 "D2" H 972 1850 60  0000 R CNN
+F 1 "D" V 1250 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1100 1900 60  0001 C CNN
+F 3 "" H 1100 1900 60  0000 C CNN
+	1    1100 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 1650 1100 1750
+$Comp
+L keyboard_parts:SW_PUSH SW3
+U 1 1 5DFD285E
+P 1400 2400
+F 0 "SW3" H 1400 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 1400 2400 60  0001 C CNN
+F 3 "" H 1400 2400 60  0000 C CNN
+	1    1400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D3
+U 1 1 5DFD2864
+P 1100 2650
+F 0 "D3" H 972 2600 60  0000 R CNN
+F 1 "D" V 1250 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1100 2650 60  0001 C CNN
+F 3 "" H 1100 2650 60  0000 C CNN
+	1    1100 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 2400 1100 2500
+$Comp
+L keyboard_parts:SW_PUSH SW4
+U 1 1 5DFD286B
+P 1400 3100
+F 0 "SW4" H 1400 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 1400 3100 60  0001 C CNN
+F 3 "" H 1400 3100 60  0000 C CNN
+	1    1400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D4
+U 1 1 5DFD2871
+P 1100 3350
+F 0 "D4" H 972 3300 60  0000 R CNN
+F 1 "D" V 1250 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1100 3350 60  0001 C CNN
+F 3 "" H 1100 3350 60  0000 C CNN
+	1    1100 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 3100 1100 3200
+$Comp
+L keyboard_parts:SW_PUSH SW5
+U 1 1 5DFD3F1F
+P 1400 3800
+F 0 "SW5" H 1400 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 1400 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 1400 3800 60  0001 C CNN
+F 3 "" H 1400 3800 60  0000 C CNN
+	1    1400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D5
+U 1 1 5DFD3F25
+P 1100 4050
+F 0 "D5" H 972 4000 60  0000 R CNN
+F 1 "D" V 1250 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1100 4050 60  0001 C CNN
+F 3 "" H 1100 4050 60  0000 C CNN
+	1    1100 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 3800 1100 3900
+$Comp
+L keyboard_parts:SW_PUSH SW6
+U 1 1 5DFD4710
+P 2250 950
+F 0 "SW6" H 2250 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 2250 950 60  0001 C CNN
+F 3 "" H 2250 950 60  0000 C CNN
+	1    2250 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D6
+U 1 1 5DFD4716
+P 1950 1200
+F 0 "D6" H 1822 1150 60  0000 R CNN
+F 1 "D" V 2100 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1950 1200 60  0001 C CNN
+F 3 "" H 1950 1200 60  0000 C CNN
+	1    1950 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 950  1950 1050
+$Comp
+L keyboard_parts:SW_PUSH SW7
+U 1 1 5DFD471D
+P 2250 1650
+F 0 "SW7" H 2250 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 2250 1650 60  0001 C CNN
+F 3 "" H 2250 1650 60  0000 C CNN
+	1    2250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D7
+U 1 1 5DFD4723
+P 1950 1900
+F 0 "D7" H 1822 1850 60  0000 R CNN
+F 1 "D" V 2100 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1950 1900 60  0001 C CNN
+F 3 "" H 1950 1900 60  0000 C CNN
+	1    1950 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 1650 1950 1750
+$Comp
+L keyboard_parts:SW_PUSH SW8
+U 1 1 5DFD472A
+P 2250 2400
+F 0 "SW8" H 2250 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 2250 2400 60  0001 C CNN
+F 3 "" H 2250 2400 60  0000 C CNN
+	1    2250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D8
+U 1 1 5DFD4730
+P 1950 2650
+F 0 "D8" H 1822 2600 60  0000 R CNN
+F 1 "D" V 2100 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1950 2650 60  0001 C CNN
+F 3 "" H 1950 2650 60  0000 C CNN
+	1    1950 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 2400 1950 2500
+$Comp
+L keyboard_parts:SW_PUSH SW9
+U 1 1 5DFD4737
+P 2250 3100
+F 0 "SW9" H 2250 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 2250 3100 60  0001 C CNN
+F 3 "" H 2250 3100 60  0000 C CNN
+	1    2250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D9
+U 1 1 5DFD473D
+P 1950 3350
+F 0 "D9" H 1822 3300 60  0000 R CNN
+F 1 "D" V 2100 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1950 3350 60  0001 C CNN
+F 3 "" H 1950 3350 60  0000 C CNN
+	1    1950 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 3100 1950 3200
+$Comp
+L keyboard_parts:SW_PUSH SW10
+U 1 1 5DFD4744
+P 2250 3800
+F 0 "SW10" H 2250 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 2250 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 2250 3800 60  0001 C CNN
+F 3 "" H 2250 3800 60  0000 C CNN
+	1    2250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D10
+U 1 1 5DFD474A
+P 1950 4050
+F 0 "D10" H 1822 4000 60  0000 R CNN
+F 1 "D" V 2100 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 1950 4050 60  0001 C CNN
+F 3 "" H 1950 4050 60  0000 C CNN
+	1    1950 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1950 3800 1950 3900
+$Comp
+L keyboard_parts:SW_PUSH SW11
+U 1 1 5DFE67FE
+P 3050 950
+F 0 "SW11" H 3050 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3050 950 60  0001 C CNN
+F 3 "" H 3050 950 60  0000 C CNN
+	1    3050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D11
+U 1 1 5DFE6804
+P 2750 1200
+F 0 "D11" H 2622 1150 60  0000 R CNN
+F 1 "D" V 2900 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 2750 1200 60  0001 C CNN
+F 3 "" H 2750 1200 60  0000 C CNN
+	1    2750 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 950  2750 1050
+$Comp
+L keyboard_parts:SW_PUSH SW12
+U 1 1 5DFE680B
+P 3050 1650
+F 0 "SW12" H 3050 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3050 1650 60  0001 C CNN
+F 3 "" H 3050 1650 60  0000 C CNN
+	1    3050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D12
+U 1 1 5DFE6811
+P 2750 1900
+F 0 "D12" H 2622 1850 60  0000 R CNN
+F 1 "D" V 2900 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 2750 1900 60  0001 C CNN
+F 3 "" H 2750 1900 60  0000 C CNN
+	1    2750 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 1650 2750 1750
+$Comp
+L keyboard_parts:SW_PUSH SW13
+U 1 1 5DFE6818
+P 3050 2400
+F 0 "SW13" H 3050 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3050 2400 60  0001 C CNN
+F 3 "" H 3050 2400 60  0000 C CNN
+	1    3050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D13
+U 1 1 5DFE681E
+P 2750 2650
+F 0 "D13" H 2622 2600 60  0000 R CNN
+F 1 "D" V 2900 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 2750 2650 60  0001 C CNN
+F 3 "" H 2750 2650 60  0000 C CNN
+	1    2750 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 2400 2750 2500
+$Comp
+L keyboard_parts:SW_PUSH SW14
+U 1 1 5DFE6825
+P 3050 3100
+F 0 "SW14" H 3050 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3050 3100 60  0001 C CNN
+F 3 "" H 3050 3100 60  0000 C CNN
+	1    3050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D14
+U 1 1 5DFE682B
+P 2750 3350
+F 0 "D14" H 2622 3300 60  0000 R CNN
+F 1 "D" V 2900 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 2750 3350 60  0001 C CNN
+F 3 "" H 2750 3350 60  0000 C CNN
+	1    2750 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 3100 2750 3200
+$Comp
+L keyboard_parts:SW_PUSH SW15
+U 1 1 5DFE6832
+P 3050 3800
+F 0 "SW15" H 3050 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 3050 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3050 3800 60  0001 C CNN
+F 3 "" H 3050 3800 60  0000 C CNN
+	1    3050 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D15
+U 1 1 5DFE6838
+P 2750 4050
+F 0 "D15" H 2622 4000 60  0000 R CNN
+F 1 "D" V 2900 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 2750 4050 60  0001 C CNN
+F 3 "" H 2750 4050 60  0000 C CNN
+	1    2750 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 3800 2750 3900
+$Comp
+L keyboard_parts:SW_PUSH SW16
+U 1 1 5DFE683F
+P 3900 950
+F 0 "SW16" H 3900 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 3900 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3900 950 60  0001 C CNN
+F 3 "" H 3900 950 60  0000 C CNN
+	1    3900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D16
+U 1 1 5DFE6845
+P 3600 1200
+F 0 "D16" H 3472 1150 60  0000 R CNN
+F 1 "D" V 3750 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 3600 1200 60  0001 C CNN
+F 3 "" H 3600 1200 60  0000 C CNN
+	1    3600 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 950  3600 1050
+$Comp
+L keyboard_parts:SW_PUSH SW17
+U 1 1 5DFE684C
+P 3900 1650
+F 0 "SW17" H 3900 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 3900 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3900 1650 60  0001 C CNN
+F 3 "" H 3900 1650 60  0000 C CNN
+	1    3900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D17
+U 1 1 5DFE6852
+P 3600 1900
+F 0 "D17" H 3472 1850 60  0000 R CNN
+F 1 "D" V 3750 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 3600 1900 60  0001 C CNN
+F 3 "" H 3600 1900 60  0000 C CNN
+	1    3600 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 1650 3600 1750
+$Comp
+L keyboard_parts:SW_PUSH SW18
+U 1 1 5DFE6859
+P 3900 2400
+F 0 "SW18" H 3900 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 3900 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3900 2400 60  0001 C CNN
+F 3 "" H 3900 2400 60  0000 C CNN
+	1    3900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D18
+U 1 1 5DFE685F
+P 3600 2650
+F 0 "D18" H 3472 2600 60  0000 R CNN
+F 1 "D" V 3750 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 3600 2650 60  0001 C CNN
+F 3 "" H 3600 2650 60  0000 C CNN
+	1    3600 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 2400 3600 2500
+$Comp
+L keyboard_parts:SW_PUSH SW19
+U 1 1 5DFE6866
+P 3900 3100
+F 0 "SW19" H 3900 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 3900 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3900 3100 60  0001 C CNN
+F 3 "" H 3900 3100 60  0000 C CNN
+	1    3900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D19
+U 1 1 5DFE686C
+P 3600 3350
+F 0 "D19" H 3472 3300 60  0000 R CNN
+F 1 "D" V 3750 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 3600 3350 60  0001 C CNN
+F 3 "" H 3600 3350 60  0000 C CNN
+	1    3600 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3100 3600 3200
+$Comp
+L keyboard_parts:SW_PUSH SW20
+U 1 1 5DFE6873
+P 3900 3800
+F 0 "SW20" H 3900 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 3900 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 3900 3800 60  0001 C CNN
+F 3 "" H 3900 3800 60  0000 C CNN
+	1    3900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D20
+U 1 1 5DFE6879
+P 3600 4050
+F 0 "D20" H 3472 4000 60  0000 R CNN
+F 1 "D" V 3750 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 3600 4050 60  0001 C CNN
+F 3 "" H 3600 4050 60  0000 C CNN
+	1    3600 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 3800 3600 3900
+$Comp
+L keyboard_parts:SW_PUSH SW21
+U 1 1 5E00805E
+P 4750 950
+F 0 "SW21" H 4750 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 4750 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 4750 950 60  0001 C CNN
+F 3 "" H 4750 950 60  0000 C CNN
+	1    4750 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D21
+U 1 1 5E008064
+P 4450 1200
+F 0 "D21" H 4322 1150 60  0000 R CNN
+F 1 "D" V 4600 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 4450 1200 60  0001 C CNN
+F 3 "" H 4450 1200 60  0000 C CNN
+	1    4450 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 950  4450 1050
+$Comp
+L keyboard_parts:SW_PUSH SW22
+U 1 1 5E00806B
+P 4750 1650
+F 0 "SW22" H 4750 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 4750 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 4750 1650 60  0001 C CNN
+F 3 "" H 4750 1650 60  0000 C CNN
+	1    4750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D22
+U 1 1 5E008071
+P 4450 1900
+F 0 "D22" H 4322 1850 60  0000 R CNN
+F 1 "D" V 4600 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 4450 1900 60  0001 C CNN
+F 3 "" H 4450 1900 60  0000 C CNN
+	1    4450 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 1650 4450 1750
+$Comp
+L keyboard_parts:SW_PUSH SW23
+U 1 1 5E008078
+P 4750 2400
+F 0 "SW23" H 4750 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 4750 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 4750 2400 60  0001 C CNN
+F 3 "" H 4750 2400 60  0000 C CNN
+	1    4750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D23
+U 1 1 5E00807E
+P 4450 2650
+F 0 "D23" H 4322 2600 60  0000 R CNN
+F 1 "D" V 4600 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 4450 2650 60  0001 C CNN
+F 3 "" H 4450 2650 60  0000 C CNN
+	1    4450 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 2400 4450 2500
+$Comp
+L keyboard_parts:SW_PUSH SW24
+U 1 1 5E008085
+P 4750 3100
+F 0 "SW24" H 4750 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 4750 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 4750 3100 60  0001 C CNN
+F 3 "" H 4750 3100 60  0000 C CNN
+	1    4750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D24
+U 1 1 5E00808B
+P 4450 3350
+F 0 "D24" H 4322 3300 60  0000 R CNN
+F 1 "D" V 4600 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 4450 3350 60  0001 C CNN
+F 3 "" H 4450 3350 60  0000 C CNN
+	1    4450 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 3100 4450 3200
+$Comp
+L keyboard_parts:SW_PUSH SW25
+U 1 1 5E008092
+P 4750 3800
+F 0 "SW25" H 4750 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 4750 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 4750 3800 60  0001 C CNN
+F 3 "" H 4750 3800 60  0000 C CNN
+	1    4750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D25
+U 1 1 5E008098
+P 4450 4050
+F 0 "D25" H 4322 4000 60  0000 R CNN
+F 1 "D" V 4600 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 4450 4050 60  0001 C CNN
+F 3 "" H 4450 4050 60  0000 C CNN
+	1    4450 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 3800 4450 3900
+$Comp
+L keyboard_parts:SW_PUSH SW26
+U 1 1 5E00809F
+P 5600 950
+F 0 "SW26" H 5600 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 5600 950 60  0001 C CNN
+F 3 "" H 5600 950 60  0000 C CNN
+	1    5600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D26
+U 1 1 5E0080A5
+P 5300 1200
+F 0 "D26" H 5172 1150 60  0000 R CNN
+F 1 "D" V 5450 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 5300 1200 60  0001 C CNN
+F 3 "" H 5300 1200 60  0000 C CNN
+	1    5300 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 950  5300 1050
+$Comp
+L keyboard_parts:SW_PUSH SW27
+U 1 1 5E0080AC
+P 5600 1650
+F 0 "SW27" H 5600 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 5600 1650 60  0001 C CNN
+F 3 "" H 5600 1650 60  0000 C CNN
+	1    5600 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D27
+U 1 1 5E0080B2
+P 5300 1900
+F 0 "D27" H 5172 1850 60  0000 R CNN
+F 1 "D" V 5450 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 5300 1900 60  0001 C CNN
+F 3 "" H 5300 1900 60  0000 C CNN
+	1    5300 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 1650 5300 1750
+$Comp
+L keyboard_parts:SW_PUSH SW28
+U 1 1 5E0080B9
+P 5600 2400
+F 0 "SW28" H 5600 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 5600 2400 60  0001 C CNN
+F 3 "" H 5600 2400 60  0000 C CNN
+	1    5600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D28
+U 1 1 5E0080BF
+P 5300 2650
+F 0 "D28" H 5172 2600 60  0000 R CNN
+F 1 "D" V 5450 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 5300 2650 60  0001 C CNN
+F 3 "" H 5300 2650 60  0000 C CNN
+	1    5300 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 2400 5300 2500
+$Comp
+L keyboard_parts:SW_PUSH SW29
+U 1 1 5E0080C6
+P 5600 3100
+F 0 "SW29" H 5600 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 5600 3100 60  0001 C CNN
+F 3 "" H 5600 3100 60  0000 C CNN
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D29
+U 1 1 5E0080CC
+P 5300 3350
+F 0 "D29" H 5172 3300 60  0000 R CNN
+F 1 "D" V 5450 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 5300 3350 60  0001 C CNN
+F 3 "" H 5300 3350 60  0000 C CNN
+	1    5300 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3100 5300 3200
+$Comp
+L keyboard_parts:SW_PUSH SW30
+U 1 1 5E0080D3
+P 5600 3800
+F 0 "SW30" H 5600 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 5600 3800 60  0001 C CNN
+F 3 "" H 5600 3800 60  0000 C CNN
+	1    5600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D30
+U 1 1 5E0080D9
+P 5300 4050
+F 0 "D30" H 5172 4000 60  0000 R CNN
+F 1 "D" V 5450 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 5300 4050 60  0001 C CNN
+F 3 "" H 5300 4050 60  0000 C CNN
+	1    5300 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5300 3800 5300 3900
+$Comp
+L keyboard_parts:SW_PUSH SW31
+U 1 1 5E0080E0
+P 6400 950
+F 0 "SW31" H 6400 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 6400 950 60  0001 C CNN
+F 3 "" H 6400 950 60  0000 C CNN
+	1    6400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D31
+U 1 1 5E0080E6
+P 6100 1200
+F 0 "D31" H 5972 1150 60  0000 R CNN
+F 1 "D" V 6250 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6100 1200 60  0001 C CNN
+F 3 "" H 6100 1200 60  0000 C CNN
+	1    6100 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 950  6100 1050
+$Comp
+L keyboard_parts:SW_PUSH SW32
+U 1 1 5E0080ED
+P 6400 1650
+F 0 "SW32" H 6400 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 6400 1650 60  0001 C CNN
+F 3 "" H 6400 1650 60  0000 C CNN
+	1    6400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D32
+U 1 1 5E0080F3
+P 6100 1900
+F 0 "D32" H 5972 1850 60  0000 R CNN
+F 1 "D" V 6250 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6100 1900 60  0001 C CNN
+F 3 "" H 6100 1900 60  0000 C CNN
+	1    6100 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 1650 6100 1750
+$Comp
+L keyboard_parts:SW_PUSH SW33
+U 1 1 5E0080FA
+P 6400 2400
+F 0 "SW33" H 6400 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 6400 2400 60  0001 C CNN
+F 3 "" H 6400 2400 60  0000 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D33
+U 1 1 5E008100
+P 6100 2650
+F 0 "D33" H 5972 2600 60  0000 R CNN
+F 1 "D" V 6250 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6100 2650 60  0001 C CNN
+F 3 "" H 6100 2650 60  0000 C CNN
+	1    6100 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 2400 6100 2500
+$Comp
+L keyboard_parts:SW_PUSH SW34
+U 1 1 5E008107
+P 6400 3100
+F 0 "SW34" H 6400 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 6400 3100 60  0001 C CNN
+F 3 "" H 6400 3100 60  0000 C CNN
+	1    6400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D34
+U 1 1 5E00810D
+P 6100 3350
+F 0 "D34" H 5972 3300 60  0000 R CNN
+F 1 "D" V 6250 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6100 3350 60  0001 C CNN
+F 3 "" H 6100 3350 60  0000 C CNN
+	1    6100 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3100 6100 3200
+$Comp
+L keyboard_parts:SW_PUSH SW35
+U 1 1 5E008114
+P 6400 3800
+F 0 "SW35" H 6400 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 6400 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 6400 3800 60  0001 C CNN
+F 3 "" H 6400 3800 60  0000 C CNN
+	1    6400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D35
+U 1 1 5E00811A
+P 6100 4050
+F 0 "D35" H 5972 4000 60  0000 R CNN
+F 1 "D" V 6250 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6100 4050 60  0001 C CNN
+F 3 "" H 6100 4050 60  0000 C CNN
+	1    6100 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6100 3800 6100 3900
+$Comp
+L keyboard_parts:SW_PUSH SW36
+U 1 1 5E008121
+P 7250 950
+F 0 "SW36" H 7250 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 7250 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 7250 950 60  0001 C CNN
+F 3 "" H 7250 950 60  0000 C CNN
+	1    7250 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D36
+U 1 1 5E008127
+P 6950 1200
+F 0 "D36" H 6822 1150 60  0000 R CNN
+F 1 "D" V 7100 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6950 1200 60  0001 C CNN
+F 3 "" H 6950 1200 60  0000 C CNN
+	1    6950 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 950  6950 1050
+$Comp
+L keyboard_parts:SW_PUSH SW37
+U 1 1 5E00812E
+P 7250 1650
+F 0 "SW37" H 7250 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 7250 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 7250 1650 60  0001 C CNN
+F 3 "" H 7250 1650 60  0000 C CNN
+	1    7250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D37
+U 1 1 5E008134
+P 6950 1900
+F 0 "D37" H 6822 1850 60  0000 R CNN
+F 1 "D" V 7100 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6950 1900 60  0001 C CNN
+F 3 "" H 6950 1900 60  0000 C CNN
+	1    6950 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 1650 6950 1750
+$Comp
+L keyboard_parts:SW_PUSH SW38
+U 1 1 5E00813B
+P 7250 2400
+F 0 "SW38" H 7250 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 7250 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 7250 2400 60  0001 C CNN
+F 3 "" H 7250 2400 60  0000 C CNN
+	1    7250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D38
+U 1 1 5E008141
+P 6950 2650
+F 0 "D38" H 6822 2600 60  0000 R CNN
+F 1 "D" V 7100 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6950 2650 60  0001 C CNN
+F 3 "" H 6950 2650 60  0000 C CNN
+	1    6950 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 2400 6950 2500
+$Comp
+L keyboard_parts:SW_PUSH SW39
+U 1 1 5E008148
+P 7250 3100
+F 0 "SW39" H 7250 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 7250 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 7250 3100 60  0001 C CNN
+F 3 "" H 7250 3100 60  0000 C CNN
+	1    7250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D39
+U 1 1 5E00814E
+P 6950 3350
+F 0 "D39" H 6822 3300 60  0000 R CNN
+F 1 "D" V 7100 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6950 3350 60  0001 C CNN
+F 3 "" H 6950 3350 60  0000 C CNN
+	1    6950 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 3100 6950 3200
+$Comp
+L keyboard_parts:SW_PUSH SW40
+U 1 1 5E008155
+P 7250 3800
+F 0 "SW40" H 7250 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 7250 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 7250 3800 60  0001 C CNN
+F 3 "" H 7250 3800 60  0000 C CNN
+	1    7250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D40
+U 1 1 5E00815B
+P 6950 4050
+F 0 "D40" H 6822 4000 60  0000 R CNN
+F 1 "D" V 7100 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 6950 4050 60  0001 C CNN
+F 3 "" H 6950 4050 60  0000 C CNN
+	1    6950 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 3800 6950 3900
+$Comp
+L keyboard_parts:SW_PUSH SW41
+U 1 1 5E0128C2
+P 8150 950
+F 0 "SW41" H 8150 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 8150 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 8150 950 60  0001 C CNN
+F 3 "" H 8150 950 60  0000 C CNN
+	1    8150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D41
+U 1 1 5E0128C8
+P 7850 1200
+F 0 "D41" H 7722 1150 60  0000 R CNN
+F 1 "D" V 8000 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 7850 1200 60  0001 C CNN
+F 3 "" H 7850 1200 60  0000 C CNN
+	1    7850 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 950  7850 1050
+$Comp
+L keyboard_parts:SW_PUSH SW42
+U 1 1 5E0128CF
+P 8150 1650
+F 0 "SW42" H 8150 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 8150 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 8150 1650 60  0001 C CNN
+F 3 "" H 8150 1650 60  0000 C CNN
+	1    8150 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D42
+U 1 1 5E0128D5
+P 7850 1900
+F 0 "D42" H 7722 1850 60  0000 R CNN
+F 1 "D" V 8000 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 7850 1900 60  0001 C CNN
+F 3 "" H 7850 1900 60  0000 C CNN
+	1    7850 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 1650 7850 1750
+$Comp
+L keyboard_parts:SW_PUSH SW43
+U 1 1 5E0128DC
+P 8150 2400
+F 0 "SW43" H 8150 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 8150 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 8150 2400 60  0001 C CNN
+F 3 "" H 8150 2400 60  0000 C CNN
+	1    8150 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D43
+U 1 1 5E0128E2
+P 7850 2650
+F 0 "D43" H 7722 2600 60  0000 R CNN
+F 1 "D" V 8000 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 7850 2650 60  0001 C CNN
+F 3 "" H 7850 2650 60  0000 C CNN
+	1    7850 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 2400 7850 2500
+$Comp
+L keyboard_parts:SW_PUSH SW44
+U 1 1 5E0128E9
+P 8150 3100
+F 0 "SW44" H 8150 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 8150 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 8150 3100 60  0001 C CNN
+F 3 "" H 8150 3100 60  0000 C CNN
+	1    8150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D44
+U 1 1 5E0128EF
+P 7850 3350
+F 0 "D44" H 7722 3300 60  0000 R CNN
+F 1 "D" V 8000 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 7850 3350 60  0001 C CNN
+F 3 "" H 7850 3350 60  0000 C CNN
+	1    7850 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 3100 7850 3200
+$Comp
+L keyboard_parts:SW_PUSH SW45
+U 1 1 5E0128F6
+P 8150 3800
+F 0 "SW45" H 8150 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 8150 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 8150 3800 60  0001 C CNN
+F 3 "" H 8150 3800 60  0000 C CNN
+	1    8150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D45
+U 1 1 5E0128FC
+P 7850 4050
+F 0 "D45" H 7722 4000 60  0000 R CNN
+F 1 "D" V 8000 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 7850 4050 60  0001 C CNN
+F 3 "" H 7850 4050 60  0000 C CNN
+	1    7850 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 3800 7850 3900
+$Comp
+L keyboard_parts:SW_PUSH SW46
+U 1 1 5E012903
+P 9000 950
+F 0 "SW46" H 9000 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 9000 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9000 950 60  0001 C CNN
+F 3 "" H 9000 950 60  0000 C CNN
+	1    9000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D46
+U 1 1 5E012909
+P 8700 1200
+F 0 "D46" H 8572 1150 60  0000 R CNN
+F 1 "D" V 8850 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 8700 1200 60  0001 C CNN
+F 3 "" H 8700 1200 60  0000 C CNN
+	1    8700 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 950  8700 1050
+$Comp
+L keyboard_parts:SW_PUSH SW47
+U 1 1 5E012910
+P 9000 1650
+F 0 "SW47" H 9000 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 9000 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9000 1650 60  0001 C CNN
+F 3 "" H 9000 1650 60  0000 C CNN
+	1    9000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D47
+U 1 1 5E012916
+P 8700 1900
+F 0 "D47" H 8572 1850 60  0000 R CNN
+F 1 "D" V 8850 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 8700 1900 60  0001 C CNN
+F 3 "" H 8700 1900 60  0000 C CNN
+	1    8700 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 1650 8700 1750
+$Comp
+L keyboard_parts:SW_PUSH SW48
+U 1 1 5E01291D
+P 9000 2400
+F 0 "SW48" H 9000 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 9000 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9000 2400 60  0001 C CNN
+F 3 "" H 9000 2400 60  0000 C CNN
+	1    9000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D48
+U 1 1 5E012923
+P 8700 2650
+F 0 "D48" H 8572 2600 60  0000 R CNN
+F 1 "D" V 8850 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 8700 2650 60  0001 C CNN
+F 3 "" H 8700 2650 60  0000 C CNN
+	1    8700 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 2400 8700 2500
+$Comp
+L keyboard_parts:SW_PUSH SW49
+U 1 1 5E01292A
+P 9000 3100
+F 0 "SW49" H 9000 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 9000 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9000 3100 60  0001 C CNN
+F 3 "" H 9000 3100 60  0000 C CNN
+	1    9000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D49
+U 1 1 5E012930
+P 8700 3350
+F 0 "D49" H 8572 3300 60  0000 R CNN
+F 1 "D" V 8850 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 8700 3350 60  0001 C CNN
+F 3 "" H 8700 3350 60  0000 C CNN
+	1    8700 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 3100 8700 3200
+$Comp
+L keyboard_parts:SW_PUSH SW50
+U 1 1 5E012937
+P 9000 3800
+F 0 "SW50" H 9000 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 9000 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9000 3800 60  0001 C CNN
+F 3 "" H 9000 3800 60  0000 C CNN
+	1    9000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D50
+U 1 1 5E01293D
+P 8700 4050
+F 0 "D50" H 8572 4000 60  0000 R CNN
+F 1 "D" V 8850 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 8700 4050 60  0001 C CNN
+F 3 "" H 8700 4050 60  0000 C CNN
+	1    8700 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 3800 8700 3900
+$Comp
+L keyboard_parts:SW_PUSH SW51
+U 1 1 5E012944
+P 9800 950
+F 0 "SW51" H 9800 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9800 950 60  0001 C CNN
+F 3 "" H 9800 950 60  0000 C CNN
+	1    9800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D51
+U 1 1 5E01294A
+P 9500 1200
+F 0 "D51" H 9372 1150 60  0000 R CNN
+F 1 "D" V 9650 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 9500 1200 60  0001 C CNN
+F 3 "" H 9500 1200 60  0000 C CNN
+	1    9500 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 950  9500 1050
+$Comp
+L keyboard_parts:SW_PUSH SW52
+U 1 1 5E012951
+P 9800 1650
+F 0 "SW52" H 9800 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9800 1650 60  0001 C CNN
+F 3 "" H 9800 1650 60  0000 C CNN
+	1    9800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D52
+U 1 1 5E012957
+P 9500 1900
+F 0 "D52" H 9372 1850 60  0000 R CNN
+F 1 "D" V 9650 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 9500 1900 60  0001 C CNN
+F 3 "" H 9500 1900 60  0000 C CNN
+	1    9500 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 1650 9500 1750
+$Comp
+L keyboard_parts:SW_PUSH SW53
+U 1 1 5E01295E
+P 9800 2400
+F 0 "SW53" H 9800 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9800 2400 60  0001 C CNN
+F 3 "" H 9800 2400 60  0000 C CNN
+	1    9800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D53
+U 1 1 5E012964
+P 9500 2650
+F 0 "D53" H 9372 2600 60  0000 R CNN
+F 1 "D" V 9650 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 9500 2650 60  0001 C CNN
+F 3 "" H 9500 2650 60  0000 C CNN
+	1    9500 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 2400 9500 2500
+$Comp
+L keyboard_parts:SW_PUSH SW54
+U 1 1 5E01296B
+P 9800 3100
+F 0 "SW54" H 9800 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9800 3100 60  0001 C CNN
+F 3 "" H 9800 3100 60  0000 C CNN
+	1    9800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D54
+U 1 1 5E012971
+P 9500 3350
+F 0 "D54" H 9372 3300 60  0000 R CNN
+F 1 "D" V 9650 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 9500 3350 60  0001 C CNN
+F 3 "" H 9500 3350 60  0000 C CNN
+	1    9500 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 3100 9500 3200
+$Comp
+L keyboard_parts:SW_PUSH SW55
+U 1 1 5E012978
+P 9800 3800
+F 0 "SW55" H 9800 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 9800 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 9800 3800 60  0001 C CNN
+F 3 "" H 9800 3800 60  0000 C CNN
+	1    9800 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D55
+U 1 1 5E01297E
+P 9500 4050
+F 0 "D55" H 9372 4000 60  0000 R CNN
+F 1 "D" V 9650 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 9500 4050 60  0001 C CNN
+F 3 "" H 9500 4050 60  0000 C CNN
+	1    9500 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 3800 9500 3900
+$Comp
+L keyboard_parts:SW_PUSH SW56
+U 1 1 5E012985
+P 10650 950
+F 0 "SW56" H 10650 1205 50  0000 C CNN
+F 1 "SW_PUSH" H 10650 1114 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 10650 950 60  0001 C CNN
+F 3 "" H 10650 950 60  0000 C CNN
+	1    10650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D56
+U 1 1 5E01298B
+P 10350 1200
+F 0 "D56" H 10222 1150 60  0000 R CNN
+F 1 "D" V 10500 1150 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 10350 1200 60  0001 C CNN
+F 3 "" H 10350 1200 60  0000 C CNN
+	1    10350 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10350 950  10350 1050
+$Comp
+L keyboard_parts:SW_PUSH SW57
+U 1 1 5E012992
+P 10650 1650
+F 0 "SW57" H 10650 1905 50  0000 C CNN
+F 1 "SW_PUSH" H 10650 1814 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 10650 1650 60  0001 C CNN
+F 3 "" H 10650 1650 60  0000 C CNN
+	1    10650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D57
+U 1 1 5E012998
+P 10350 1900
+F 0 "D57" H 10222 1850 60  0000 R CNN
+F 1 "D" V 10500 1850 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 10350 1900 60  0001 C CNN
+F 3 "" H 10350 1900 60  0000 C CNN
+	1    10350 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10350 1650 10350 1750
+$Comp
+L keyboard_parts:SW_PUSH SW58
+U 1 1 5E01299F
+P 10650 2400
+F 0 "SW58" H 10650 2655 50  0000 C CNN
+F 1 "SW_PUSH" H 10650 2564 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 10650 2400 60  0001 C CNN
+F 3 "" H 10650 2400 60  0000 C CNN
+	1    10650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D58
+U 1 1 5E0129A5
+P 10350 2650
+F 0 "D58" H 10222 2600 60  0000 R CNN
+F 1 "D" V 10500 2600 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 10350 2650 60  0001 C CNN
+F 3 "" H 10350 2650 60  0000 C CNN
+	1    10350 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10350 2400 10350 2500
+$Comp
+L keyboard_parts:SW_PUSH SW59
+U 1 1 5E0129AC
+P 10650 3100
+F 0 "SW59" H 10650 3355 50  0000 C CNN
+F 1 "SW_PUSH" H 10650 3264 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 10650 3100 60  0001 C CNN
+F 3 "" H 10650 3100 60  0000 C CNN
+	1    10650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D59
+U 1 1 5E0129B2
+P 10350 3350
+F 0 "D59" H 10222 3300 60  0000 R CNN
+F 1 "D" V 10500 3300 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 10350 3350 60  0001 C CNN
+F 3 "" H 10350 3350 60  0000 C CNN
+	1    10350 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10350 3100 10350 3200
+$Comp
+L keyboard_parts:SW_PUSH SW60
+U 1 1 5E0129B9
+P 10650 3800
+F 0 "SW60" H 10650 4055 50  0000 C CNN
+F 1 "SW_PUSH" H 10650 3964 50  0000 C CNN
+F 2 "Keebio-Parts.pretty:MX_Plate_100H" H 10650 3800 60  0001 C CNN
+F 3 "" H 10650 3800 60  0000 C CNN
+	1    10650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:D D60
+U 1 1 5E0129BF
+P 10350 4050
+F 0 "D60" H 10222 4000 60  0000 R CNN
+F 1 "D" V 10500 4000 60  0001 C CNN
+F 2 "Keebio-Parts.pretty:Diode" H 10350 4050 60  0001 C CNN
+F 3 "" H 10350 4050 60  0000 C CNN
+	1    10350 4050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10350 3800 10350 3900
+Wire Wire Line
+	1700 950  1700 1650
+Connection ~ 1700 1650
+Wire Wire Line
+	1700 1650 1700 2400
+Connection ~ 1700 2400
+Wire Wire Line
+	1700 2400 1700 3100
+Connection ~ 1700 3100
+Wire Wire Line
+	1700 3100 1700 3800
+Wire Wire Line
+	2550 950  2550 1650
+Connection ~ 2550 1650
+Wire Wire Line
+	2550 1650 2550 2400
+Connection ~ 2550 2400
+Wire Wire Line
+	2550 2400 2550 3100
+Connection ~ 2550 3100
+Wire Wire Line
+	2550 3100 2550 3800
+Wire Wire Line
+	3350 950  3350 1650
+Connection ~ 3350 1650
+Wire Wire Line
+	3350 1650 3350 2400
+Connection ~ 3350 2400
+Wire Wire Line
+	3350 2400 3350 3100
+Connection ~ 3350 3100
+Wire Wire Line
+	3350 3100 3350 3800
+Wire Wire Line
+	4200 950  4200 1650
+Connection ~ 4200 1650
+Wire Wire Line
+	4200 1650 4200 2400
+Connection ~ 4200 2400
+Wire Wire Line
+	4200 2400 4200 3100
+Connection ~ 4200 3100
+Wire Wire Line
+	4200 3100 4200 3800
+Wire Wire Line
+	5050 950  5050 1650
+Connection ~ 5050 1650
+Wire Wire Line
+	5050 1650 5050 2400
+Connection ~ 5050 2400
+Wire Wire Line
+	5050 2400 5050 3100
+Connection ~ 5050 3100
+Wire Wire Line
+	5050 3100 5050 3800
+Wire Wire Line
+	5900 950  5900 1650
+Connection ~ 5900 1650
+Wire Wire Line
+	5900 1650 5900 2400
+Connection ~ 5900 2400
+Wire Wire Line
+	5900 2400 5900 3100
+Connection ~ 5900 3100
+Wire Wire Line
+	5900 3100 5900 3800
+Wire Wire Line
+	6700 950  6700 1650
+Connection ~ 6700 1650
+Wire Wire Line
+	6700 1650 6700 2400
+Connection ~ 6700 2400
+Wire Wire Line
+	6700 2400 6700 3100
+Connection ~ 6700 3100
+Wire Wire Line
+	6700 3100 6700 3800
+Wire Wire Line
+	7550 950  7550 1650
+Connection ~ 7550 1650
+Wire Wire Line
+	7550 1650 7550 2400
+Connection ~ 7550 2400
+Wire Wire Line
+	7550 2400 7550 3100
+Connection ~ 7550 3100
+Wire Wire Line
+	7550 3100 7550 3800
+Wire Wire Line
+	8450 950  8450 1650
+Connection ~ 8450 1650
+Wire Wire Line
+	8450 1650 8450 2400
+Connection ~ 8450 2400
+Wire Wire Line
+	8450 2400 8450 3100
+Connection ~ 8450 3100
+Wire Wire Line
+	8450 3100 8450 3800
+Wire Wire Line
+	9300 950  9300 1650
+Connection ~ 9300 1650
+Wire Wire Line
+	9300 1650 9300 2400
+Connection ~ 9300 2400
+Wire Wire Line
+	9300 2400 9300 3100
+Connection ~ 9300 3100
+Wire Wire Line
+	9300 3100 9300 3800
+Wire Wire Line
+	10100 950  10100 1650
+Connection ~ 10100 1650
+Wire Wire Line
+	10100 1650 10100 2400
+Connection ~ 10100 2400
+Wire Wire Line
+	10100 2400 10100 3100
+Connection ~ 10100 3100
+Wire Wire Line
+	10100 3100 10100 3800
+Wire Wire Line
+	10950 950  10950 1650
+Connection ~ 10950 1650
+Wire Wire Line
+	10950 1650 10950 2400
+Connection ~ 10950 2400
+Wire Wire Line
+	10950 2400 10950 3100
+Connection ~ 10950 3100
+Wire Wire Line
+	10950 3100 10950 3800
+Wire Wire Line
+	1700 3800 1700 4350
+Wire Wire Line
+	1700 4350 2550 4350
+Wire Wire Line
+	2550 4350 2550 3800
+Connection ~ 1700 3800
+Connection ~ 2550 3800
+Wire Wire Line
+	3350 3800 3350 4350
+Wire Wire Line
+	3350 4350 4200 4350
+Wire Wire Line
+	4200 4350 4200 3800
+Connection ~ 3350 3800
+Connection ~ 4200 3800
+Wire Wire Line
+	5050 3800 5050 4350
+Wire Wire Line
+	5050 4350 5900 4350
+Wire Wire Line
+	5900 4350 5900 3800
+Connection ~ 5050 3800
+Connection ~ 5900 3800
+Wire Wire Line
+	6700 3800 6700 4350
+Wire Wire Line
+	6700 4350 7550 4350
+Wire Wire Line
+	7550 4350 7550 3800
+Connection ~ 6700 3800
+Connection ~ 7550 3800
+Wire Wire Line
+	8450 3800 8450 4350
+Wire Wire Line
+	8450 4350 9300 4350
+Wire Wire Line
+	9300 4350 9300 3800
+Connection ~ 8450 3800
+Connection ~ 9300 3800
+Wire Wire Line
+	10100 3800 10100 4350
+Wire Wire Line
+	10100 4350 10950 4350
+Wire Wire Line
+	10950 4350 10950 3800
+Connection ~ 10100 3800
+Connection ~ 10950 3800
+Wire Wire Line
+	900  1350 1950 1350
+Wire Wire Line
+	10350 1350 10350 1250
+Wire Wire Line
+	650  1300 1100 1300
+Wire Wire Line
+	9500 1300 9500 1250
+Wire Wire Line
+	8700 1250 8700 1350
+Connection ~ 8700 1350
+Wire Wire Line
+	8700 1350 10350 1350
+Wire Wire Line
+	7850 1250 7850 1300
+Connection ~ 7850 1300
+Wire Wire Line
+	7850 1300 9500 1300
+Wire Wire Line
+	6950 1250 6950 1350
+Connection ~ 6950 1350
+Wire Wire Line
+	6950 1350 8700 1350
+Wire Wire Line
+	6100 1250 6100 1300
+Connection ~ 6100 1300
+Wire Wire Line
+	6100 1300 7850 1300
+Wire Wire Line
+	5300 1250 5300 1350
+Connection ~ 5300 1350
+Wire Wire Line
+	5300 1350 6950 1350
+Wire Wire Line
+	3600 1250 3600 1350
+Connection ~ 3600 1350
+Wire Wire Line
+	3600 1350 5300 1350
+Wire Wire Line
+	4450 1250 4450 1300
+Connection ~ 4450 1300
+Wire Wire Line
+	4450 1300 6100 1300
+Wire Wire Line
+	2750 1250 2750 1300
+Connection ~ 2750 1300
+Wire Wire Line
+	2750 1300 4450 1300
+Wire Wire Line
+	1950 1250 1950 1350
+Connection ~ 1950 1350
+Wire Wire Line
+	1950 1350 3600 1350
+Wire Wire Line
+	1100 1250 1100 1300
+Connection ~ 1100 1300
+Wire Wire Line
+	1100 1300 2750 1300
+Wire Wire Line
+	10350 2100 10350 1950
+Wire Wire Line
+	9500 2050 9500 1950
+Wire Wire Line
+	8700 1950 8700 2100
+Connection ~ 8700 2100
+Wire Wire Line
+	8700 2100 10350 2100
+Wire Wire Line
+	7850 1950 7850 2050
+Connection ~ 7850 2050
+Wire Wire Line
+	7850 2050 9500 2050
+Wire Wire Line
+	6950 1950 6950 2100
+Connection ~ 6950 2100
+Wire Wire Line
+	6950 2100 8700 2100
+Wire Wire Line
+	6100 1950 6100 2050
+Connection ~ 6100 2050
+Wire Wire Line
+	6100 2050 7850 2050
+Wire Wire Line
+	5300 1950 5300 2100
+Wire Wire Line
+	5300 2100 6950 2100
+Wire Wire Line
+	4450 1950 4450 2050
+Connection ~ 4450 2050
+Wire Wire Line
+	4450 2050 6100 2050
+Connection ~ 5300 2100
+Wire Wire Line
+	900  2100 1950 2100
+Wire Wire Line
+	650  2050 1100 2050
+Wire Wire Line
+	3600 1950 3600 2100
+Connection ~ 3600 2100
+Wire Wire Line
+	3600 2100 5300 2100
+Wire Wire Line
+	2750 1950 2750 2050
+Connection ~ 2750 2050
+Wire Wire Line
+	2750 2050 4450 2050
+Wire Wire Line
+	1950 1950 1950 2100
+Connection ~ 1950 2100
+Wire Wire Line
+	1950 2100 3600 2100
+Wire Wire Line
+	1100 1950 1100 2050
+Connection ~ 1100 2050
+Wire Wire Line
+	1100 2050 2750 2050
+Wire Wire Line
+	1000 2800 1950 2800
+Wire Wire Line
+	10350 2800 10350 2700
+Wire Wire Line
+	750  2750 1100 2750
+Wire Wire Line
+	9500 2750 9500 2700
+Wire Wire Line
+	8700 2700 8700 2800
+Connection ~ 8700 2800
+Wire Wire Line
+	8700 2800 10350 2800
+Wire Wire Line
+	7850 2700 7850 2750
+Connection ~ 7850 2750
+Wire Wire Line
+	7850 2750 9500 2750
+Wire Wire Line
+	6950 2700 6950 2800
+Connection ~ 6950 2800
+Wire Wire Line
+	6950 2800 8700 2800
+Wire Wire Line
+	6100 2700 6100 2750
+Connection ~ 6100 2750
+Wire Wire Line
+	6100 2750 7850 2750
+Wire Wire Line
+	5300 2700 5300 2800
+Connection ~ 5300 2800
+Wire Wire Line
+	5300 2800 6950 2800
+Wire Wire Line
+	4450 2700 4450 2750
+Connection ~ 4450 2750
+Wire Wire Line
+	4450 2750 6100 2750
+Wire Wire Line
+	3600 2700 3600 2800
+Connection ~ 3600 2800
+Wire Wire Line
+	3600 2800 5300 2800
+Wire Wire Line
+	2750 2700 2750 2750
+Connection ~ 2750 2750
+Wire Wire Line
+	2750 2750 4450 2750
+Wire Wire Line
+	1950 2700 1950 2800
+Connection ~ 1950 2800
+Wire Wire Line
+	1950 2800 3600 2800
+Wire Wire Line
+	1100 2700 1100 2750
+Connection ~ 1100 2750
+Wire Wire Line
+	1100 2750 2750 2750
+Wire Wire Line
+	950  3500 1950 3500
+Wire Wire Line
+	10350 3500 10350 3400
+Wire Wire Line
+	700  3450 1100 3450
+Wire Wire Line
+	9500 3450 9500 3400
+Wire Wire Line
+	8700 3400 8700 3500
+Connection ~ 8700 3500
+Wire Wire Line
+	8700 3500 10350 3500
+Wire Wire Line
+	7850 3400 7850 3450
+Connection ~ 7850 3450
+Wire Wire Line
+	7850 3450 9500 3450
+Wire Wire Line
+	6950 3400 6950 3500
+Connection ~ 6950 3500
+Wire Wire Line
+	6950 3500 8700 3500
+Wire Wire Line
+	6100 3400 6100 3450
+Connection ~ 6100 3450
+Wire Wire Line
+	6100 3450 7850 3450
+Wire Wire Line
+	5300 3400 5300 3500
+Connection ~ 5300 3500
+Wire Wire Line
+	5300 3500 6950 3500
+Wire Wire Line
+	4450 3400 4450 3450
+Connection ~ 4450 3450
+Wire Wire Line
+	4450 3450 6100 3450
+Wire Wire Line
+	3600 3400 3600 3500
+Connection ~ 3600 3500
+Wire Wire Line
+	3600 3500 5300 3500
+Wire Wire Line
+	2750 3400 2750 3450
+Connection ~ 2750 3450
+Wire Wire Line
+	2750 3450 4450 3450
+Wire Wire Line
+	1950 3400 1950 3500
+Connection ~ 1950 3500
+Wire Wire Line
+	1950 3500 3600 3500
+Wire Wire Line
+	1100 3400 1100 3450
+Connection ~ 1100 3450
+Wire Wire Line
+	1100 3450 2750 3450
+Wire Wire Line
+	900  4250 1950 4250
+Wire Wire Line
+	10350 4250 10350 4100
+Wire Wire Line
+	650  4200 1100 4200
+Wire Wire Line
+	9500 4200 9500 4100
+Wire Wire Line
+	8700 4100 8700 4250
+Connection ~ 8700 4250
+Wire Wire Line
+	8700 4250 10350 4250
+Wire Wire Line
+	7850 4100 7850 4200
+Connection ~ 7850 4200
+Wire Wire Line
+	7850 4200 9500 4200
+Wire Wire Line
+	6950 4100 6950 4250
+Connection ~ 6950 4250
+Wire Wire Line
+	6950 4250 8700 4250
+Wire Wire Line
+	6100 4100 6100 4200
+Connection ~ 6100 4200
+Wire Wire Line
+	6100 4200 7850 4200
+Wire Wire Line
+	5300 4100 5300 4250
+Connection ~ 5300 4250
+Wire Wire Line
+	5300 4250 6950 4250
+Wire Wire Line
+	4450 4100 4450 4200
+Connection ~ 4450 4200
+Wire Wire Line
+	4450 4200 6100 4200
+Wire Wire Line
+	3600 4100 3600 4250
+Connection ~ 3600 4250
+Wire Wire Line
+	3600 4250 5300 4250
+Wire Wire Line
+	2750 4100 2750 4200
+Connection ~ 2750 4200
+Wire Wire Line
+	2750 4200 4450 4200
+Wire Wire Line
+	1950 4100 1950 4250
+Connection ~ 1950 4250
+Wire Wire Line
+	1950 4250 3600 4250
+Wire Wire Line
+	1100 4100 1100 4200
+Connection ~ 1100 4200
+Wire Wire Line
+	1100 4200 2750 4200
+Text GLabel 900  4250 0    50   Input ~ 0
+B4B
+Text GLabel 650  4200 0    50   Input ~ 0
+B4A
+Text GLabel 950  3500 0    50   Input ~ 0
+B3B
+Text GLabel 700  3450 0    50   Input ~ 0
+B3A
+Text GLabel 1000 2800 0    50   Input ~ 0
+B2B
+Text GLabel 900  2100 0    50   Input ~ 0
+B1B
+Text GLabel 900  1350 0    50   Input ~ 0
+B0B
+Text GLabel 650  1300 0    50   Input ~ 0
+B0A
+Text GLabel 650  2050 0    50   Input ~ 0
+B1A
+Text GLabel 750  2750 0    50   Input ~ 0
+B2A
+Text GLabel 1700 4350 0    50   Input ~ 0
+K01
+Text GLabel 3350 4350 0    50   Input ~ 0
+K23
+Text GLabel 5050 4350 0    50   Input ~ 0
+K45
+Text GLabel 6700 4350 0    50   Input ~ 0
+K67
+Text GLabel 8450 4350 0    50   Input ~ 0
+K89
+Text GLabel 10100 4350 0    50   Input ~ 0
+KAA
+$Comp
+L promicro:ProMicro U1
+U 1 1 5E57AB5C
+P 2650 6150
+F 0 "U1" H 2650 7187 60  0000 C CNN
+F 1 "ProMicro" H 2650 7081 60  0000 C CNN
+F 2 "Keebio-Parts.pretty:ArduinoProMicro-ZigZag" H 2750 5100 60  0001 C CNN
+F 3 "" H 2750 5100 60  0000 C CNN
+	1    2650 6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 5800 0    50   Input ~ 0
+SCL
+Text GLabel 1950 5900 0    50   Input ~ 0
+SDA
+Text GLabel 1950 6000 0    50   Input ~ 0
+B0A
+Text GLabel 1950 6100 0    50   Input ~ 0
+B0B
+Text GLabel 1950 6200 0    50   Input ~ 0
+B1A
+Text GLabel 1950 6300 0    50   Input ~ 0
+B1B
+Text GLabel 1950 6400 0    50   Input ~ 0
+B2A
+Text GLabel 1950 6500 0    50   Input ~ 0
+B2B
+Text GLabel 3350 6500 2    50   Input ~ 0
+B3A
+Text GLabel 3350 6400 2    50   Input ~ 0
+B3B
+Text GLabel 3350 6300 2    50   Input ~ 0
+B4A
+Text GLabel 3350 6200 2    50   Input ~ 0
+B4B
+Text GLabel 1950 5400 0    50   Input ~ 0
+K01
+Text GLabel 1950 5500 0    50   Input ~ 0
+K23
+Text GLabel 3350 6100 2    50   Input ~ 0
+K45
+Text GLabel 3350 6000 2    50   Input ~ 0
+K67
+Text GLabel 3350 5900 2    50   Input ~ 0
+K89
+Text GLabel 3350 5800 2    50   Input ~ 0
+KAA
+$Comp
+L component:GND #PWR0101
+U 1 1 5E0724FC
+P 1550 5800
+F 0 "#PWR0101" H 1550 5800 30  0001 C CNN
+F 1 "GND" H 1550 5730 30  0001 C CNN
+F 2 "" H 1550 5800 60  0000 C CNN
+F 3 "" H 1550 5800 60  0000 C CNN
+	1    1550 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 5700 1550 5700
+Wire Wire Line
+	1550 5700 1550 5750
+Wire Wire Line
+	1950 5600 1550 5600
+Wire Wire Line
+	1550 5600 1550 5700
+Connection ~ 1550 5700
+$Comp
+L component:GND #PWR0102
+U 1 1 5E09A6F3
+P 3750 5700
+F 0 "#PWR0102" H 3750 5700 30  0001 C CNN
+F 1 "GND" H 3750 5630 30  0001 C CNN
+F 2 "" H 3750 5700 60  0000 C CNN
+F 3 "" H 3750 5700 60  0000 C CNN
+	1    3750 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5500 3750 5500
+Wire Wire Line
+	3750 5500 3750 5650
+Text GLabel 3350 5700 2    50   Input ~ 0
+VCC
+Text GLabel 4900 5200 0    50   Input ~ 0
+SDA
+Text GLabel 4900 5300 0    50   Input ~ 0
+SCL
+Text GLabel 4900 5400 0    50   Input ~ 0
+VCC
+$Comp
+L component:GND #PWR0103
+U 1 1 5E0E2972
+P 4750 5600
+F 0 "#PWR0103" H 4750 5600 30  0001 C CNN
+F 1 "GND" H 4750 5530 30  0001 C CNN
+F 2 "" H 4750 5600 60  0000 C CNN
+F 3 "" H 4750 5600 60  0000 C CNN
+	1    4750 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5500 4750 5500
+Wire Wire Line
+	4750 5500 4750 5550
+$Comp
+L conn:CONN_4 OLED1
+U 1 1 5E009FE2
+P 5250 5350
+F 0 "OLED1" H 5378 5391 50  0000 L CNN
+F 1 "CONN_4" H 5378 5300 50  0000 L CNN
+F 2 "Connectors:1X04_NO_SILK" H 5250 5350 50  0001 C CNN
+F 3 "" H 5250 5350 50  0001 C CNN
+	1    5250 5350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
